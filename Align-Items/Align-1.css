@@ -9,5 +9,13 @@
   width: 50vw;
   height: 40vh;
   border: 1px solid black;
+  display: flex;
+  
 }
 
+.con {
+  border: 1px solid red;
+  height: 5vh;
+  width: 5vw;
+
+}
