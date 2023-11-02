@@ -20,6 +20,9 @@
   border: 1px solid red ;
   width: 15vw;
   height: 10vh;
+  text-align: center;
+  text-wrap: wrap;
+  
 }
 
 
