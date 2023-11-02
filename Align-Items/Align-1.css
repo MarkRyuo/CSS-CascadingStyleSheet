@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: azure;
+  margin: 1.5rem;
+  width: 50vw;
+  height: 40vh;
+  border: 1px solid black;
+}
+
