@@ -5,9 +5,9 @@
 
 .container {
   background-color: beige;
-  margin: 10rem;
+  margin-top: 10rem;
   height: 70vh;
-  width: 80vw;
+  width: 100vw;
   border: 3px solid black;
   display: flex;
   flex-wrap: wrap;
