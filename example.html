@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/animation-nav/assets/css/underline-1.css">
+  <style>
+    /* Add this CSS for the underline effect */
+    nav a {
+      text-decoration: none; /* Remove the default underline */
+      position: relative;
+    }
+
+    nav a:before,
+    nav a:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      background-color: #000; /* Change the color as needed */
+      transition: width 0.3s;
+    }
+
+    nav a:before {
+      left: 0;
+    }
+
+    nav a:after {
+      right: 0;
+    }
+
+    nav a:hover:before,
+    nav a:hover:after {
+      width: 50%; /* Adjust the width as desired */
+    }
+  </style>
+  <title>Underline-1</title>
+</head>
+<body>
+  <!-- this is animation nav only -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+  </nav>
+</body>
+</html>
+
