@@ -27,12 +27,20 @@ a {
   text-decoration: none;
   border: 1px solid red ;
   height: 40px;
+  padding: 0 10px;
 }
 
-a:hover::after{
+a:after{
   content: "";
+  background-color: aquamarine;
   position: absolute;
   height: 3px;
+  width:0px ;
   left: 0;
   bottom: -10px;
+  transition: all 2s;
+}
+
+a:hover:after {
+  width: 100%;
 }
