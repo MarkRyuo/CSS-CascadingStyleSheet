@@ -42,6 +42,7 @@ a:after {
   content: "";
   background-color: green;
   width: 0;
+  /* Height for line heigth */
   height: 4px;
   left: 0;
   bottom: -10px;
