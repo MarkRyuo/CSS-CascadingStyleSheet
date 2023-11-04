@@ -44,6 +44,7 @@ a:after {
   width: 0;
   /* Height for line heigth */
   height: 4px;
+  /* Dito sa baba isa-saayus na natin yung div na pinaliit ng height  */
   left: 0;
   bottom: -10px;
   transition: all 2s;
