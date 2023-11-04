@@ -41,6 +41,7 @@ a:after {
   /* content for makita yung line kung lagyan ito ng laman eto ay magkakaroo sa baba ng laman*/
   content: "";
   background-color: green;
+  /* ang width na eto kanina ay 100% pero inilagay natin sa a:hover::after ang width na 100% upang makita natin ang line kapag hinover */
   width: 0;
   /* Height for line heigth */
   height: 4px;
