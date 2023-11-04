@@ -38,7 +38,7 @@ a {
 
 a:after {
   position: absolute;
-
+  /* content for makita yung line kung lagyan ito ng laman eto ay magkakaroo sa baba ng laman*/
   content: "";
   background-color: green;
   width: 0;
