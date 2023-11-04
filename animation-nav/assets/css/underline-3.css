@@ -50,10 +50,10 @@ a:after {
 
 a:hover::after{
   width: 100%;
-  letter-spacing: 10px;
 }
 
 a:hover {
+  color: aquamarine;
   letter-spacing: 20px;
   transition: 2s;
 }
