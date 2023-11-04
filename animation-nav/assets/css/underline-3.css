@@ -53,5 +53,8 @@ a:hover::after{
   letter-spacing: 10px;
 }
 
-
+a:hover {
+  letter-spacing: 20px;
+  transition: 2s;
+}
 
