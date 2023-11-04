@@ -15,5 +15,7 @@ body  {
   background-color: black;
 }
 nav {
-  
+  border: 2px solid cornflowerblue;
+  background-color: beige;
+
 }
