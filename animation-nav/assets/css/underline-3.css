@@ -53,7 +53,7 @@ a:hover::after{
 }
 
 a:hover {
-  color: aquamarine;
+  color:cornflowerblue;
   letter-spacing: 20px;
   transition: 2s;
 }
